@@ -1,0 +1,73 @@
+* {
+   box-sizing: border-box;
+   margin: none;
+   padding: none;
+
+}
+.mainBody {
+    display: flex;
+
+    width: 500px;
+     flex-direction: column;
+    height: 500px;
+    align-items: center;
+    /* position: absolute; */
+}
+.top {
+    height: 370px;
+    width: 100%;
+    background-color: rgb(239, 193, 10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+    hgh
+
+}
+.para {
+     height: 50px;
+     width: fit-content;
+     font-size: 35px;
+     color: aliceblue;
+    
+     margin-top: 70px;
+
+
+}
+.emoji {
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    color: rgb(19, 16, 16);
+    background-color: rgba(83, 78, 78, 0.694);
+ 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.bottom {
+    display: flex;
+    height: 130px;
+    
+    justify-content: space-evenly;
+    width: 100%;
+ 
+    background-color: rgb(239, 193, 10);
+}
+.left {
+    background-color: rgb(247, 82, 120);
+    width: 50%;
+    height: 100%;
+
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+}
+.right {
+    background-color: rgb(247, 82, 120);
+    width: 50%;
+    min-height: 50%;
+    clip-path: polygon(0 25%,25% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
